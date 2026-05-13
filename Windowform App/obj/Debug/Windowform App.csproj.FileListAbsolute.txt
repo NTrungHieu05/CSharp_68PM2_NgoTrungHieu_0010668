@@ -1,0 +1,10 @@
+D:\C#\Windowform App\Windowform App\bin\Debug\Windowform App.exe.config
+D:\C#\Windowform App\Windowform App\bin\Debug\Windowform App.exe
+D:\C#\Windowform App\Windowform App\bin\Debug\Windowform App.pdb
+D:\C#\Windowform App\Windowform App\obj\Debug\Windowform App.csproj.AssemblyReference.cache
+D:\C#\Windowform App\Windowform App\obj\Debug\Windowform_App.Form1.resources
+D:\C#\Windowform App\Windowform App\obj\Debug\Windowform_App.Properties.Resources.resources
+D:\C#\Windowform App\Windowform App\obj\Debug\Windowform App.csproj.GenerateResource.cache
+D:\C#\Windowform App\Windowform App\obj\Debug\Windowform App.csproj.CoreCompileInputs.cache
+D:\C#\Windowform App\Windowform App\obj\Debug\Windowform App.exe
+D:\C#\Windowform App\Windowform App\obj\Debug\Windowform App.pdb
