@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace Windowform_App
 {
-    public partial class QLSinhVien : Form
+    public partial class UCQLLH : UserControl
     {
-        public QLSinhVien()
+        public UCQLLH()
         {
             InitializeComponent();
         }
+
+        
     }
 }

@@ -18,3 +18,6 @@ D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.
 D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.csproj.CoreCompileInputs.cache
 D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.exe
 D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.pdb
+D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.Home.resources
+D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.UCQLLH.resources
+D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.UCQLSV.resources

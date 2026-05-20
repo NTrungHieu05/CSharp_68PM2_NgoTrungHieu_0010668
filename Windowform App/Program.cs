@@ -16,7 +16,7 @@ namespace Windowform_App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new QLSinhVien());
+            Application.Run(new Home());
         }
     }
 }

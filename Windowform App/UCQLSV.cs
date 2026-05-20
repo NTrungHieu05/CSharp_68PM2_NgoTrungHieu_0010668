@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Windowform_App
 {
-    public partial class QLLopHoc : Form
+    public partial class UCQLSV : UserControl
     {
-        public QLLopHoc()
+        public UCQLSV()
         {
             InitializeComponent();
         }
