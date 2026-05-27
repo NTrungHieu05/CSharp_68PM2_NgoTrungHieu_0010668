@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Windowform_App
+{
+    public partial class Home : Form
+    {
+        public Home()
+        {
+            InitializeComponent();
+            UCQLSV UCQLSV = new UCQLSV();
+            Home_Load(UCQLSV);
+        }
+        public void Home_Load(UserControl userControl)
+        {
+            UCQLSV UCQLSV = new UCQLSV();
+            pn_home.Controls.Clear();
+            pn_home.Controls.Add(userControl);
+        }
+        
+
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCQLSV uCQLSV = new UCQLSV();
+            pn_home.Controls.Clear();
+            pn_home.Controls.Add(uCQLSV);
+        }
+
+        private void sinhVienToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCQLLH uCQLLH = new UCQLLH();
+            pn_home.Controls.Clear();
+            pn_home.Controls.Add(uCQLLH);
+        }
+    }
+}

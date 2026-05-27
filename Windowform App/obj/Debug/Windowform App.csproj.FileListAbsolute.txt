@@ -1,23 +1,26 @@
-D:\C#\Windowform App\Windowform App\bin\Debug\Windowform App.exe.config
-D:\C#\Windowform App\Windowform App\bin\Debug\Windowform App.exe
-D:\C#\Windowform App\Windowform App\bin\Debug\Windowform App.pdb
-D:\C#\Windowform App\Windowform App\obj\Debug\Windowform App.csproj.AssemblyReference.cache
-D:\C#\Windowform App\Windowform App\obj\Debug\Windowform_App.Form1.resources
-D:\C#\Windowform App\Windowform App\obj\Debug\Windowform_App.Properties.Resources.resources
-D:\C#\Windowform App\Windowform App\obj\Debug\Windowform App.csproj.GenerateResource.cache
-D:\C#\Windowform App\Windowform App\obj\Debug\Windowform App.csproj.CoreCompileInputs.cache
-D:\C#\Windowform App\Windowform App\obj\Debug\Windowform App.exe
-D:\C#\Windowform App\Windowform App\obj\Debug\Windowform App.pdb
 D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\bin\Debug\Windowform App.exe.config
 D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\bin\Debug\Windowform App.exe
 D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\bin\Debug\Windowform App.pdb
 D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.csproj.AssemblyReference.cache
 D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.Form1.resources
+D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.Home.resources
 D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.Properties.Resources.resources
+D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.UCQLLH.resources
+D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.UCQLSV.resources
 D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.csproj.GenerateResource.cache
 D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.csproj.CoreCompileInputs.cache
 D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.exe
 D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.pdb
-D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.Home.resources
-D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.UCQLLH.resources
-D:\C#\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.UCQLSV.resources
+D:\CSharp\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\bin\Debug\Windowform App.exe.config
+D:\CSharp\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\bin\Debug\Windowform App.exe
+D:\CSharp\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\bin\Debug\Windowform App.pdb
+D:\CSharp\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.csproj.AssemblyReference.cache
+D:\CSharp\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.Form1.resources
+D:\CSharp\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.Home.resources
+D:\CSharp\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.Properties.Resources.resources
+D:\CSharp\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.UCQLLH.resources
+D:\CSharp\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform_App.UCQLSV.resources
+D:\CSharp\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.csproj.GenerateResource.cache
+D:\CSharp\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.csproj.CoreCompileInputs.cache
+D:\CSharp\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.exe
+D:\CSharp\CSharp_68PM2_NgoTrungHieu_0010668\Windowform App\obj\Debug\Windowform App.pdb
