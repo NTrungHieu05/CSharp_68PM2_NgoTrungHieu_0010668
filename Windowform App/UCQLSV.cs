@@ -192,7 +192,57 @@ namespace Windowform_App
                 MessageBox.Show("Lỗi: " + ex.Message);
             }
         }
+        private void btn_xoa_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtMSSV.Text))
+            {
+                MessageBox.Show("Vui lòng chọn sinh viên cần xóa!");
+                return;
+            }
 
+            DialogResult result = MessageBox.Show(
+                "Bạn có chắc chắn muốn xóa sinh viên này?",
+                "Xác nhận xóa",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+
+            if (result == DialogResult.No)
+                return;
+
+            try
+            {
+                string mssv = txtMSSV.Text;
+
+                tbl_sinhvien sv = db.tbl_sinhviens
+                                    .FirstOrDefault(x => x.id == mssv);
+
+                if (sv == null)
+                {
+                    MessageBox.Show("Không tìm thấy sinh viên!");
+                    return;
+                }
+
+                db.tbl_sinhviens.DeleteOnSubmit(sv);
+                db.SubmitChanges();
+
+                MessageBox.Show("Xóa sinh viên thành công!");
+
+                // Load lại DataGridView
+                dgv_DSSV.DataSource = null;
+                dgv_DSSV.DataSource = db.tbl_sinhviens.ToList();
+
+                // Xóa dữ liệu trên form
+                txtMSSV.Clear();
+                txtHoTen.Clear();
+                cboGioiTinh.SelectedIndex = -1;
+                cboMaLop.SelectedIndex = -1;
+                dtpNgaySinh.Value = DateTime.Now;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
 
 
     }
