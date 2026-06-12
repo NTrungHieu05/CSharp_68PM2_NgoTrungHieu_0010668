@@ -38,20 +38,20 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_them = new System.Windows.Forms.Button();
+            this.btn_sua = new System.Windows.Forms.Button();
+            this.btn_xoa = new System.Windows.Forms.Button();
+            this.btn_lammoi = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btn_timkiem = new System.Windows.Forms.Button();
             this.dgv_DSLH = new System.Windows.Forms.DataGridView();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btn_first = new System.Windows.Forms.Button();
+            this.btn_pre = new System.Windows.Forms.Button();
+            this.btn_last = new System.Windows.Forms.Button();
+            this.btn_next = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.button10 = new System.Windows.Forms.Button();
+            this.btn_xemdssv = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_DSLH)).BeginInit();
             this.SuspendLayout();
@@ -163,53 +163,53 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã ID:";
             // 
-            // button1
+            // btn_them
             // 
-            this.button1.AllowDrop = true;
-            this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(5, 443);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(184, 50);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Thêm";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_them.AllowDrop = true;
+            this.btn_them.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn_them.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_them.Location = new System.Drawing.Point(5, 443);
+            this.btn_them.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_them.Name = "btn_them";
+            this.btn_them.Size = new System.Drawing.Size(184, 50);
+            this.btn_them.TabIndex = 2;
+            this.btn_them.Text = "Thêm";
+            this.btn_them.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btn_sua
             // 
-            this.button2.BackColor = System.Drawing.Color.LimeGreen;
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(227, 443);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(174, 50);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Sửa";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_sua.BackColor = System.Drawing.Color.LimeGreen;
+            this.btn_sua.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_sua.Location = new System.Drawing.Point(227, 443);
+            this.btn_sua.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_sua.Name = "btn_sua";
+            this.btn_sua.Size = new System.Drawing.Size(174, 50);
+            this.btn_sua.TabIndex = 3;
+            this.btn_sua.Text = "Sửa";
+            this.btn_sua.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btn_xoa
             // 
-            this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button3.Location = new System.Drawing.Point(5, 511);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(184, 49);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Xóa";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_xoa.BackColor = System.Drawing.Color.Red;
+            this.btn_xoa.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btn_xoa.Location = new System.Drawing.Point(5, 511);
+            this.btn_xoa.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_xoa.Name = "btn_xoa";
+            this.btn_xoa.Size = new System.Drawing.Size(184, 49);
+            this.btn_xoa.TabIndex = 4;
+            this.btn_xoa.Text = "Xóa";
+            this.btn_xoa.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btn_lammoi
             // 
-            this.button4.BackColor = System.Drawing.Color.Silver;
-            this.button4.Location = new System.Drawing.Point(227, 511);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(174, 49);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Làm mới";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn_lammoi.BackColor = System.Drawing.Color.Silver;
+            this.btn_lammoi.Location = new System.Drawing.Point(227, 511);
+            this.btn_lammoi.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_lammoi.Name = "btn_lammoi";
+            this.btn_lammoi.Size = new System.Drawing.Size(174, 49);
+            this.btn_lammoi.TabIndex = 5;
+            this.btn_lammoi.Text = "Làm mới";
+            this.btn_lammoi.UseVisualStyleBackColor = false;
             // 
             // label6
             // 
@@ -230,19 +230,19 @@
             this.textBox3.Size = new System.Drawing.Size(585, 30);
             this.textBox3.TabIndex = 7;
             // 
-            // button5
+            // btn_timkiem
             // 
-            this.button5.AllowDrop = true;
-            this.button5.BackColor = System.Drawing.Color.SlateGray;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(1045, 43);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(129, 33);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Tìm";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn_timkiem.AllowDrop = true;
+            this.btn_timkiem.BackColor = System.Drawing.Color.SlateGray;
+            this.btn_timkiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_timkiem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_timkiem.Location = new System.Drawing.Point(1045, 43);
+            this.btn_timkiem.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_timkiem.Name = "btn_timkiem";
+            this.btn_timkiem.Size = new System.Drawing.Size(129, 33);
+            this.btn_timkiem.TabIndex = 8;
+            this.btn_timkiem.Text = "Tìm";
+            this.btn_timkiem.UseVisualStyleBackColor = false;
             // 
             // dgv_DSLH
             // 
@@ -255,45 +255,45 @@
             this.dgv_DSLH.Size = new System.Drawing.Size(737, 484);
             this.dgv_DSLH.TabIndex = 9;
             // 
-            // button6
+            // btn_first
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(436, 606);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(81, 61);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "<<";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btn_first.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_first.Location = new System.Drawing.Point(436, 606);
+            this.btn_first.Name = "btn_first";
+            this.btn_first.Size = new System.Drawing.Size(81, 61);
+            this.btn_first.TabIndex = 10;
+            this.btn_first.Text = "<<";
+            this.btn_first.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btn_pre
             // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(514, 606);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(81, 61);
-            this.button7.TabIndex = 11;
-            this.button7.Text = "<";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btn_pre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_pre.Location = new System.Drawing.Point(514, 606);
+            this.btn_pre.Name = "btn_pre";
+            this.btn_pre.Size = new System.Drawing.Size(81, 61);
+            this.btn_pre.TabIndex = 11;
+            this.btn_pre.Text = "<";
+            this.btn_pre.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btn_last
             // 
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(1093, 606);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(81, 61);
-            this.button8.TabIndex = 13;
-            this.button8.Text = ">>";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btn_last.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_last.Location = new System.Drawing.Point(1093, 606);
+            this.btn_last.Name = "btn_last";
+            this.btn_last.Size = new System.Drawing.Size(81, 61);
+            this.btn_last.TabIndex = 13;
+            this.btn_last.Text = ">>";
+            this.btn_last.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btn_next
             // 
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(1015, 606);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(81, 61);
-            this.button9.TabIndex = 12;
-            this.button9.Text = ">";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btn_next.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_next.Location = new System.Drawing.Point(1015, 606);
+            this.btn_next.Name = "btn_next";
+            this.btn_next.Size = new System.Drawing.Size(81, 61);
+            this.btn_next.TabIndex = 12;
+            this.btn_next.Text = ">";
+            this.btn_next.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
@@ -305,37 +305,37 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "Trang 1/1 | 3 bản ghi";
             // 
-            // button10
+            // btn_xemdssv
             // 
-            this.button10.AllowDrop = true;
-            this.button10.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button10.Location = new System.Drawing.Point(5, 583);
-            this.button10.Margin = new System.Windows.Forms.Padding(2);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(396, 50);
-            this.button10.TabIndex = 2;
-            this.button10.Text = "Xem danh sách sinh viên";
-            this.button10.UseVisualStyleBackColor = false;
+            this.btn_xemdssv.AllowDrop = true;
+            this.btn_xemdssv.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_xemdssv.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_xemdssv.Location = new System.Drawing.Point(5, 583);
+            this.btn_xemdssv.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_xemdssv.Name = "btn_xemdssv";
+            this.btn_xemdssv.Size = new System.Drawing.Size(396, 50);
+            this.btn_xemdssv.TabIndex = 2;
+            this.btn_xemdssv.Text = "Xem danh sách sinh viên";
+            this.btn_xemdssv.UseVisualStyleBackColor = false;
             // 
             // UCQLLH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btn_last);
+            this.Controls.Add(this.btn_next);
+            this.Controls.Add(this.btn_pre);
+            this.Controls.Add(this.btn_first);
             this.Controls.Add(this.dgv_DSLH);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btn_timkiem);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_lammoi);
+            this.Controls.Add(this.btn_xoa);
+            this.Controls.Add(this.btn_sua);
+            this.Controls.Add(this.btn_xemdssv);
+            this.Controls.Add(this.btn_them);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5);
@@ -359,21 +359,21 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn_them;
+        private System.Windows.Forms.Button btn_sua;
+        private System.Windows.Forms.Button btn_xoa;
+        private System.Windows.Forms.Button btn_lammoi;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btn_timkiem;
         private System.Windows.Forms.DataGridView dgv_DSLH;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btn_first;
+        private System.Windows.Forms.Button btn_pre;
+        private System.Windows.Forms.Button btn_last;
+        private System.Windows.Forms.Button btn_next;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btn_xemdssv;
     }
 }

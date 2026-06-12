@@ -1,0 +1,175 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Windowform_App
+{
+    public partial class UCQLSV : UserControl
+    {
+        databaseDataContext db = new databaseDataContext();
+        string mssvDangChon = "";
+        public UCQLSV()
+        {
+            InitializeComponent();
+            dgv_DSSV.CellClick += dgv_DSSV_CellContentClick;
+        }
+
+        private void UCQLSV_Load(object sender, EventArgs e)
+        {
+            dgv_DSSV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+            List<tbl_sinhvien> dSSV = db.tbl_sinhviens.ToList();
+            dgv_DSSV.DataSource = dSSV;
+            LoadLopHoc(sender, e);
+            
+
+        }
+
+        private void btn_them_Click(object sender, EventArgs e)
+        {
+            string mSSV = txtMSSV.Text;
+            string hoten = txtHoTen.Text;
+            string gioitinh = cboGioiTinh.Text;
+            string dateTime = dtpNgaySinh.Value.ToString("yyyy-MM-dd");
+
+            tbl_sinhvien sinhvien = new tbl_sinhvien();
+            sinhvien.id = mSSV;
+            sinhvien.hoten = hoten;
+            sinhvien.gioitinh = gioitinh;
+            sinhvien.ngaysinh = DateTime.Parse(dateTime);
+            sinhvien.malop = cboMaLop.SelectedValue.ToString();
+
+            try
+            {
+                db.tbl_sinhviens.InsertOnSubmit(sinhvien);
+                db.SubmitChanges();
+                MessageBox.Show("Thêm sinh viên thành công!");
+                UCQLSV_Load(sender, e);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+
+        private void LoadLopHoc(object sender, EventArgs e)
+        {
+            List<tbl_lophoc> dslh = db.tbl_lophocs.ToList();
+            cboMaLop.DataSource = dslh;
+            cboMaLop.DisplayMember = "tenlop";
+            cboMaLop.ValueMember = "malop";
+
+        }
+
+        private void dgv_DSSV_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0)
+                return;
+
+            DataGridViewRow row = dgv_DSSV.Rows[e.RowIndex];
+
+            mssvDangChon = row.Cells["id"].Value.ToString();
+
+            txtMSSV.Text = row.Cells["id"].Value.ToString();
+            txtHoTen.Text = row.Cells["hoten"].Value.ToString();
+
+            cboGioiTinh.Text = row.Cells["gioitinh"].Value.ToString();
+
+            dtpNgaySinh.Value =
+                Convert.ToDateTime(row.Cells["ngaysinh"].Value);
+
+            cboMaLop.SelectedValue =
+                row.Cells["malop"].Value.ToString();
+        }
+
+        private void btn_sua_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string mssv = txtMSSV.Text;
+
+                tbl_sinhvien sv = db.tbl_sinhviens
+                                    .FirstOrDefault(x => x.id == mssv);
+
+                if (sv == null)
+                {
+                    MessageBox.Show("Không tìm thấy sinh viên!");
+                    return;
+                }
+
+                sv.hoten = txtHoTen.Text;
+                sv.gioitinh = cboGioiTinh.Text;
+                sv.ngaysinh = dtpNgaySinh.Value;
+                sv.malop = cboMaLop.SelectedValue.ToString();
+
+                db.SubmitChanges();
+
+                MessageBox.Show("Cập nhật thành công!");
+
+                dgv_DSSV.DataSource = db.tbl_sinhviens.ToList();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+
+        private void btn_xoa_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtMSSV.Text))
+            {
+                MessageBox.Show("Vui lòng chọn sinh viên cần xóa!");
+                return;
+            }
+
+            DialogResult result = MessageBox.Show(
+                "Bạn có chắc chắn muốn xóa sinh viên này?",
+                "Xác nhận xóa",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+
+            if (result == DialogResult.No)
+                return;
+
+            try
+            {
+                string mssv = txtMSSV.Text;
+
+                tbl_sinhvien sv = db.tbl_sinhviens
+                                    .FirstOrDefault(x => x.id == mssv);
+
+                if (sv == null)
+                {
+                    MessageBox.Show("Không tìm thấy sinh viên!");
+                    return;
+                }
+
+                db.tbl_sinhviens.DeleteOnSubmit(sv);
+                db.SubmitChanges();
+
+                MessageBox.Show("Xóa sinh viên thành công!");
+
+                // Load lại DataGridView
+                dgv_DSSV.DataSource = null;
+                dgv_DSSV.DataSource = db.tbl_sinhviens.ToList();
+
+                // Xóa dữ liệu trên form
+                txtMSSV.Clear();
+                txtHoTen.Clear();
+                cboGioiTinh.SelectedIndex = -1;
+                cboMaLop.SelectedIndex = -1;
+                dtpNgaySinh.Value = DateTime.Now;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+    }
+}
