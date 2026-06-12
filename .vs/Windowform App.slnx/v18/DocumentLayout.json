@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\CSharp\\CSharp_68PM2_NgoTrungHieu_0010668\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE87F1EA-E794-4676-9CC8-6858B915CE48}|Windowform App\\Windowform App.csproj|D:\\CSharp\\CSharp_68PM2_NgoTrungHieu_0010668\\windowform app\\ucqlsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE87F1EA-E794-4676-9CC8-6858B915CE48}|Windowform App\\Windowform App.csproj|d:\\csharp\\csharp_68pm2_ngotrunghieu_0010668\\windowform app\\ucqlsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE87F1EA-E794-4676-9CC8-6858B915CE48}|Windowform App\\Windowform App.csproj|solutionrelative:windowform app\\ucqlsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{EE87F1EA-E794-4676-9CC8-6858B915CE48}|Windowform App\\Windowform App.csproj|solutionrelative:windowform app\\ucqllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE87F1EA-E794-4676-9CC8-6858B915CE48}|Windowform App\\Windowform App.csproj|d:\\csharp\\csharp_68pm2_ngotrunghieu_0010668\\windowform app\\ucqllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EE87F1EA-E794-4676-9CC8-6858B915CE48}|Windowform App\\Windowform App.csproj|D:\\CSharp\\CSharp_68PM2_NgoTrungHieu_0010668\\windowform app\\ucqllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EE87F1EA-E794-4676-9CC8-6858B915CE48}|Windowform App\\Windowform App.csproj|solutionrelative:windowform app\\ucqllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{EE87F1EA-E794-4676-9CC8-6858B915CE48}|Windowform App\\Windowform App.csproj|solutionrelative:windowform app\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE87F1EA-E794-4676-9CC8-6858B915CE48}|Windowform App\\Windowform App.csproj|d:\\csharp\\csharp_68pm2_ngotrunghieu_0010668\\windowform app\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EE87F1EA-E794-4676-9CC8-6858B915CE48}|Windowform App\\Windowform App.csproj|D:\\CSharp\\CSharp_68PM2_NgoTrungHieu_0010668\\windowform app\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EE87F1EA-E794-4676-9CC8-6858B915CE48}|Windowform App\\Windowform App.csproj|solutionrelative:windowform app\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -49,8 +49,7 @@
               "ToolTip": "D:\\CSharp\\CSharp_68PM2_NgoTrungHieu_0010668\\Windowform App\\UCQLLH.cs [Design]",
               "RelativeToolTip": "Windowform App\\UCQLLH.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T23:51:45.025Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-11T23:51:45.025Z"
             },
             {
               "$type": "Document",
@@ -60,7 +59,7 @@
               "RelativeDocumentMoniker": "Windowform App\\UCQLSV.cs",
               "ToolTip": "D:\\CSharp\\CSharp_68PM2_NgoTrungHieu_0010668\\Windowform App\\UCQLSV.cs",
               "RelativeToolTip": "Windowform App\\UCQLSV.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAUwIEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T03:28:13.406Z",
               "EditorCaption": ""
@@ -75,8 +74,7 @@
               "RelativeToolTip": "Windowform App\\UCQLLH.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAowBYAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T03:44:07.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T03:44:07.918Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "Windowform App\\UCQLLH.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T03:32:33.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T03:32:33.819Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "Windowform App\\Home.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T03:37:22.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T03:37:22.097Z"
             },
             {
               "$type": "Document",
@@ -113,8 +109,7 @@
               "ToolTip": "D:\\CSharp\\CSharp_68PM2_NgoTrungHieu_0010668\\Windowform App\\UCQLSV.cs [Design]",
               "RelativeToolTip": "Windowform App\\UCQLSV.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T03:25:42.927Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-20T03:25:42.927Z"
             },
             {
               "$type": "Document",
@@ -125,8 +120,7 @@
               "ToolTip": "D:\\CSharp\\CSharp_68PM2_NgoTrungHieu_0010668\\Windowform App\\Home.cs [Design]",
               "RelativeToolTip": "Windowform App\\Home.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T03:36:59.453Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-20T03:36:59.453Z"
             }
           ]
         }

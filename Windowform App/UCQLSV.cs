@@ -128,9 +128,72 @@ namespace Windowform_App
             cboMaLop.SelectedValue =
                 row.Cells["malop"].Value.ToString();
         }
+        private void btn_sua_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string mssv = txtMSSV.Text.Trim();
+                string hoten = txtHoTen.Text.Trim();
+                string gioitinh = cboGioiTinh.Text.Trim();
+                var malop = cboMaLop.SelectedValue;
+                DateTime ngaysinh = dtpNgaySinh.Value.Date;
 
-        
+                if (string.IsNullOrEmpty(mssv))
+                {
+                    MessageBox.Show("Vui lòng chọn hoặc nhập Mã sinh viên để sửa.");
+                    txtMSSV.Focus();
+                    return;
+                }
+                if (string.IsNullOrEmpty(hoten))
+                {
+                    MessageBox.Show("Họ tên không được để trống.");
+                    txtHoTen.Focus();
+                    return;
+                }
+                if (string.IsNullOrEmpty(gioitinh))
+                {
+                    MessageBox.Show("Vui lòng chọn giới tính.");
+                    cboGioiTinh.Focus();
+                    return;
+                }
+                if (malop == null)
+                {
+                    MessageBox.Show("Vui lòng chọn lớp.");
+                    cboMaLop.Focus();
+                    return;
+                }
+                if (ngaysinh > DateTime.Today)
+                {
+                    MessageBox.Show("Ngày sinh không hợp lệ.");
+                    dtpNgaySinh.Focus();
+                    return;
+                }
 
-        
+                tbl_sinhvien sv = db.tbl_sinhviens.FirstOrDefault(x => x.id == mssv);
+                if (sv == null)
+                {
+                    MessageBox.Show("Không tìm thấy sinh viên!");
+                    return;
+                }
+
+                sv.hoten = hoten;
+                sv.gioitinh = gioitinh;
+                sv.ngaysinh = ngaysinh;
+                sv.malop = malop.ToString();
+
+                db.SubmitChanges();
+
+                MessageBox.Show("Cập nhật thành công!");
+
+                dgv_DSSV.DataSource = db.tbl_sinhviens.ToList();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+
+
+
     }
 }
